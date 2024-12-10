@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Magic Eden</title>
+  <base href="/">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; frame-src 'none'; form-action 'none'; object-src 'none'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https: wss: data: blob:">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      padding: 20px;
+    }
+
+    .logo {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
+
+    .content {
+      padding-top: 70px;
+    }
+
+    .buttons {
+      margin-top: 20px;
+    }
+
+    .btn {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 30%;
+    }
+
+    .btn:hover {
+      background-color: #3e8e41;
+    }
+
+    .divider {
+      margin-top: 20px;
+    }
+
+    .divider hr {
+      border: none;
+      height: 1px;
+      background-color: #ccc;
+    }
+
+    .divider img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-left: 10px;
+      float: right;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="logo.png" alt="Logo" style="width: 50px; height: 50px; border-radius: 50%; margin: 20px;">
+    </div>
+    <div class="content">
+      <h1 style="color: #fff; font-size: 36px; font-weight: bold; margin-bottom: 10px;">Welcome to Magic Eden</h1>
+      <h3 style="color: #fff; font-size: 18px; font-weight: normal; margin-bottom: 20px;">Discover, buy, and sell NFTs</h3>
+      <div class="buttons">
+        <button class="btn">Explore</button>
+        <button class="btn">Create</button>
+      </div>
+      <div class="divider">
+        <hr>
+        <img src="image.png" alt="Image" style="width: 50px; height: 50px; border-radius: 50%; margin-left: 10px; float: right;">
+      </div>
+    </div>
+  </div>
